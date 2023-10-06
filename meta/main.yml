@@ -1,6 +1,3 @@
-dependencies:
-  - role: AerisCloud.yum
-    version: v1.0.2
 galaxy_info:
   role_name: testing_1
   author: aws
@@ -11,11 +8,15 @@ galaxy_info:
   min_ansible_version: 1.0.1
   min_ansible_container_version: '1.2'
   github_branch: testingBranch
-  platforms:
-    - name: Windows
-      versions:
-        - all
   galaxy_tags:
     - tag1
     - tag2
     - tag3
+  platforms:
+    - name: Windows
+      versions:
+        - all
+    - name: macOS
+      versions:
+        - all
+dependencies: []
