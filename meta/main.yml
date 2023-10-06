@@ -1,0 +1,19 @@
+galaxy_info:
+  role_name: testing_1
+  author: aws
+  description: asdf
+  company: asf
+  issue_tracker_url: github.com
+  license: mit
+  min_ansible_version: 1.0.1
+  min_ansible_container_version: '1.2'
+  github_branch: testingBranch
+  galaxy_tags:
+    - tag1
+    - tag2
+    - tag3
+  platforms:
+    - name: Windows
+      versions:
+        - all
+dependencies: []
