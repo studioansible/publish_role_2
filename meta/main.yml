@@ -22,6 +22,4 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-dependencies: 
-  - role: geerlingguy.apache
-    version: 3.3.0
+dependencies: []
