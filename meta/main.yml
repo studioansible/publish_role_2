@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: testing_8
+  role_name: testing_9
   author: aws
   description: asdfh
   company: asf
@@ -23,5 +23,5 @@ galaxy_info:
       versions:
         - all
 dependencies: 
-    - role: geerlingguy.apache
-      version: 3.3.0
+  - role: geerlingguy.apache
+    version: 3.3.0
