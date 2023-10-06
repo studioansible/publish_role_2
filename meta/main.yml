@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: testing_1
+  role_name: testing_2
   author: aws
   description: asdf
   company: asf
@@ -17,6 +17,9 @@ galaxy_info:
       versions:
         - all
     - name: macOS
+      versions:
+        - all
+    - name: Ubuntu
       versions:
         - all
 dependencies: []
