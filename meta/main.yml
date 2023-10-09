@@ -1,6 +1,6 @@
 dependencies: 
-  - geerlingguy.ansible: 3.3.0
-  - geerlingguy.java: 2.1.0
+  - geerlingguy.ansible , 3.3.0
+  - geerlingguy.java , 2.1.0
     
     
 galaxy_info:
