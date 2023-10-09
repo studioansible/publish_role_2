@@ -1,5 +1,10 @@
+dependencies:
+  - role: geerlingguy.ansible
+    version: 2.3.0
+  - role: AerisCloud.yum
+    version: v1.0.2
 galaxy_info:
-  role_name: testing_11
+  role_name: testing_12
   author: aws
   description: Testing tags
   company: asf
@@ -8,10 +13,6 @@ galaxy_info:
   min_ansible_version: 1.0.1
   min_ansible_container_version: '1.2'
   github_branch: testingBranch
-  galaxy_tags:
-    - tag1
-    - tag2
-    - tag3
   platforms:
     - name: Windows
       versions:
@@ -22,5 +23,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-dependencies: 
-    - geerlingguy.java: 3.3.0
+  galaxy_tags:
+    - tag1
+    - tag2
+    - tag3
