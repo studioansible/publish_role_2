@@ -1,5 +1,6 @@
 dependencies: 
-  - geerlingguy.ansible, geerlingguy.java 
+  - geerlingguy.ansible
+  - geerlingguy.java 
     
     
 galaxy_info:
