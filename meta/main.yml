@@ -23,5 +23,4 @@ galaxy_info:
       versions:
         - all
 dependencies: 
-    - role: geerlingguy.java
-      version: 3.3.0
+    - geerlingguy.java: 3.3.0
