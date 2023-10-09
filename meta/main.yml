@@ -1,8 +1,4 @@
-dependencies:
-  - role: geerlingguy.ansible
-    version: 2.3.0
-  - role: AerisCloud.yum
-    version: v1.0.2
+   
 galaxy_info:
   role_name: testing_12
   author: aws
@@ -27,3 +23,8 @@ galaxy_info:
     - tag1
     - tag2
     - tag3
+dependencies: 
+  - role: geerlingguy.ansible
+    version: 2.3.0
+  - role: AerisCloud.yum
+    version: v1.0.2
